@@ -21,6 +21,7 @@ This repo contains the following scripts to process the BACI files.
 | -------- | ----------- |
 | **Preprocessing**<br>[`1-save-to-parquet.ipynb`](1-save-to-parquet.ipynb)| Compiles yearly BACI csv files into one table and exports it as a Parquet file. |
 | **Aggregation**<br>[`2-aggregate.ipynb`](2-aggregate.ipynb) | Aggregates the BACI dataset to the 4-digit, 2-digit, and country levels. |
+| **Summary stats**<br>[`3-summary-stats.ipynb`](3-summary-stats.ipynb) | Compiles summary statistics for datasets generated. |
 
 ## Citing
 
