@@ -13,6 +13,8 @@ Each BACI table is a csv file corresponding to one year of trade. It has the fol
 
 The download package contains dictionaries for the country and product codes. 
 
+## Scripts
+
 This repo contains the following scripts to process the BACI files. 
 
 | Notebook | Description |
@@ -23,7 +25,7 @@ This repo contains the following scripts to process the BACI files.
 ## Citing
 
 ```bibtex
-@misc{ksreyesbaci,
+@misc{ksreyes2023baciscripts,
     title = {{Working with the BACI dataset}},
     author = {{Kenneth S. Reyes}},
     url = {https://github.com/ksreyes/baci},
