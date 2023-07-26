@@ -11,7 +11,7 @@ Each BACI table is a csv file corresponding to one year of trade. It has the fol
 - `v`: value of trade flow in thousands of USD
 - `q`: weight of trade flow in metric tons
 
-Each row is therefore the dollar amount `v` of product `k` sent by country `i` to country `j` in the year `t`. Dictionaries for the country and product codes are included in the downloaded zip file.
+Each row is therefore the dollar amount `v` of product `k` sent by country `i` to country `j` in the year `t`. Dictionaries for the country and product codes are included in the downloaded zip file. Note that `q` is missing in about 2% of entries.
 
 ## Scripts
 
