@@ -1,6 +1,4 @@
-# import pandas as pd
 import os
-# import re
 import duckdb
 
 def baci_to_parquet(hs, release, input_folder='raw', output_folder='final'):
@@ -44,10 +42,7 @@ def aggregate_baci(input, output, aggregation='country'):
             f"""
             COPY (
                 SELECT t, i, j, k2, SUM(v) AS v
-                FROM (
-                    SELECT t, i, j, SUBSTRING(k, -6, 2) AS k2, v
-                    FROM '{input}'
-                )
+                FROM (SELECT t, i, j, SUBSTRING(k, -6, 2) AS k2, v FROM '{input}')
                 GROUP BY t, i, j, k2
                 ORDER BY t
             ) TO '{output}'
@@ -59,10 +54,7 @@ def aggregate_baci(input, output, aggregation='country'):
             f"""
             COPY (
                 SELECT t, i, j, k4, sum(v) AS v
-                FROM (
-                    SELECT t, i, j, substring(k, -6, 4) AS k4, v
-                    FROM '{input}'
-                )
+                FROM (SELECT t, i, j, substring(k, -6, 4) AS k4, v FROM '{input}')
                 GROUP BY t, i, j, k4
                 ORDER BY t
             ) TO '{output}'
