@@ -1,6 +1,6 @@
 # Working with the BACI dataset
 
-This repository contains scripts for working with the CEPII BACI trade dataset. It shows how the yearly csv files can be compiled into one table and exported as a space-efficient [Parquet](https://parquet.apache.org/) file. It also demonstrates how this may be queried and manipulated with SQL using [DuckDB's](https://duckdb.org/) Python API.
+This repository contains scripts for working with the CEPII BACI trade dataset. It shows how the yearly csv files can be compiled into one table and exported as a space-efficient [parquet](https://parquet.apache.org/) file. It also demonstrates how this may be queried and manipulated with SQL using [DuckDB's](https://duckdb.org/) Python API.
 
 ## About BACI
 
@@ -19,7 +19,7 @@ Each row is therefore the dollar amount `v` of product `k` sent by country `i` t
 
 ## Usage
 
-See [usage.ipynb](usage.ipynb).
+See [usage.ipynb](usage.ipynb). See also [eda.ipynb](eda.ipynb) for some exploratory data analysis.
 
 ## References
 
