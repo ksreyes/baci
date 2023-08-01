@@ -17,19 +17,14 @@ Each BACI table is a csv file corresponding to one year of trade. It has the fol
 
 Each row is therefore the dollar amount `v` of product `k` sent by country `i` to country `j` in the year `t`. Dictionaries for the country and product codes are included when downloading an edition of BACI. Note that `q` is missing in about 2% of entries.
 
-## Scripts
+## Usage
 
-The following are the notebooks contained in this repo.
-
-| Notebook | Description |
-| -------- | ----------- |
-| [`1-save-to-parquet.ipynb`](1-save-to-parquet.ipynb)| Compiles yearly BACI csv files into one table and exports it as a Parquet file. |
-| [`2-aggregate.ipynb`](2-aggregate.ipynb) | Aggregates the BACI dataset to the 4-digit, 2-digit, and country levels. |
-| [`3-summary-stats.ipynb`](3-summary-stats.ipynb) | Compiles summary statistics for datasets generated. |
+See [usage.ipynb](usage.ipynb).
 
 ## References
 
 G. Gaulier and S. Signago. (2010). [BACI: international trade database at the product-level. The 1994-2007 version.](http://www.cepii.fr/PDF_PUB/wp/2010/wp2010-23.pdf) *CEPII Working Paper No. 2010-23*.
+
 ## Citing
 
 ```bibtex
