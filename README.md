@@ -29,9 +29,9 @@ G. Gaulier and S. Signago. (2010). [BACI: international trade database at the pr
 
 ```bibtex
 @misc{ksreyes2023baciscripts,
-    title = {{Working with the BACI dataset}},
-    author = {{Kenneth S. Reyes}},
+    title = {Working with the BACI dataset},
+    author = {Kenneth S. Reyes},
     url = {https://github.com/ksreyes/baci},
-    year = {2023},
+    year = 2023,
 }
 ```
